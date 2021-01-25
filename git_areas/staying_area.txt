@@ -1,0 +1,23 @@
+STAYING AREA O INDEX:
+	Es el area donde se registran los archivos a los que vamos a realizar
+	seguimiento, al iniciar un repositorio se encuentra vacio y debemos 
+	cargar el contenido al cual queremos 
+	realizarle seguimiento o control. Una vez agregado al index 
+	podemos efectuar los cambios en el repositorio.
+
+	NOTA: Cuando agregamos un archivo, debemos evitar editarlo tras haberse
+	realizado la captura del codigo, debido a que cuando utilizamos el 
+	comando correspondiente, se hace una captura del mismo y lo que
+	se almacena en formato BLOB es eso.
+
+	git add = agrega archivos al index
+		git add <nombre del archivo> = agrega un archivo.
+		git add <folder/carpeta>     = carga el contenido de una carpeta.
+		git add .		     = carga los archivos que difieran con el index.		
+
+	git rm	= remueve un archivo del index.
+		git rm <archivo> = quita el archivo en especifico del index.
+		git rm <carpeta/folder> remueve del index los archivos de la carpeta
+
+	git restore --staged = quitamos los archivos del index solamente si fueron agregados por 
+				primera vez
