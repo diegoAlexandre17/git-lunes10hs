@@ -1,3 +1,4 @@
+
 WORKING DIRECTORY: (direcorio de trabajo)
 	Es la carpeta donde llevamos acabo nuestro trabajo.
 	Donde creamos, editamos y eliminamos archivos.
@@ -7,6 +8,7 @@ WORKING DIRECTORY: (direcorio de trabajo)
 	o los comandos de GIT para trabajar con el contenido.
 
 COMANDOS:
+	ls/dir = listan el contenido de un directorio
 	cd (check directory) = se utiliza para navegar entre las carpetas
 	cd <carpeta>	= abre el directorio especificado
 	cd ..		= vuelve al directorio anterior
@@ -19,3 +21,6 @@ COMANDOS:
 GIT:
 	git init	= inicializa un repositorio de git
 	git status	= compara el directorio de trabajo con el index
+	git config --list = imprime en pantalla la config de git
+	git config --get-regexp <word> = busca en la config la palabra indicada "word"
+	rm -rf .git = elimina el repositorio, no afecta a los archivos y carpetas
