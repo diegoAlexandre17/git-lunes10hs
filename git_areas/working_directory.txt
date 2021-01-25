@@ -1,0 +1,21 @@
+WORKING DIRECTORY: (direcorio de trabajo)
+	Es la carpeta donde llevamos acabo nuestro trabajo.
+	Donde creamos, editamos y eliminamos archivos.
+	Normalmente todo directorio sea o no un repositorio se considera 
+	de "trabajo", la diferencia es que con git se lleva un control 
+	del contenido del mismo. Tambien rara vez utilizaremos la consola
+	o los comandos de GIT para trabajar con el contenido.
+
+COMANDOS:
+	cd (check directory) = se utiliza para navegar entre las carpetas
+	cd <carpeta>	= abre el directorio especificado
+	cd ..		= vuelve al directorio anterior
+
+	mkdir <name>	= crea un directorio o carpeta con el nombre indicado
+	rmdir <carpeta>	= elimina el directorio con dicho nombre
+
+	copycon o touch <name> = crear un archivo con el nombre indicado
+
+GIT:
+	git init	= inicializa un repositorio de git
+	git status	= compara el directorio de trabajo con el index
