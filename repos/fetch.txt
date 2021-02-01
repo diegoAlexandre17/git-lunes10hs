@@ -1,0 +1,9 @@
+git fetch <url> = trae el historial de cambios al repositorio pero no modifica el working directory
+(solamente actualiza la carpeta .git)
+
+git pull <url> = trae el historial de cambios y actualiza el working directory
+emitiendo un nuevo commit
+(Realiza un FETCH + MERGE)
+
+git push <url> = envia el historial de cambios y los archivos al repositorio remoto
+(permite crear/eliminar ramas de los remotos)
